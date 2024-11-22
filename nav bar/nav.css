@@ -1,0 +1,190 @@
+:root {
+    --darkblue: #0071E6;
+    --lightblue: #81B6ED;
+    --darkgold: #DAAA00;
+    --lightgold: #EDDB9D;
+}
+
+@font-face{
+    font-family: "Bernoru";
+    src: url(bernoru.otf);
+}
+
+body {
+    margin: auto;
+    
+}
+
+
+.navcontainer {
+    position: sticky;
+    top: 0;
+    background-color: var(--darkblue);
+    height: 15vh;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+}
+
+
+.navlogo {
+    border-radius: 10%;
+    max-width: 30%;
+    max-height: 100%;
+    flex-basis: 10%;
+    margin: 1rem;
+}
+
+.middleNav {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-basis: 80%;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1rem;
+    
+}
+
+.middleNav input[type=search]{
+    width: 60vw;
+    border-radius: 15px;
+    padding: 5px 25px 5px 5px;
+    border-style: none; 
+    transition: ease all .1s;
+}
+
+.middleNav i{
+    position: relative;
+    top: 2px;
+    right: 2.9rem;
+    height: 20px;
+    width: 20px;
+    z-index: 11;
+    color: white;
+    transition: ease all .1s;
+}
+
+.searchBar {
+    display: inline-block;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+    
+}
+
+.corner {
+    position: relative;
+    right: 1.7rem;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    background: var(--darkgold); /* Set the bg image here. with "no-repeat" */
+    transition: ease all .1s;
+}
+
+/* clears the ‘X’ from Internet Explorer */
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.navButtonsContainer {
+    display:flex;
+    width: 60vw;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    font-size: 20px;
+    color: white;
+}
+
+.navButtons {
+    text-decoration: none;
+    color: white;
+}
+
+.navButtons:hover, .navButtons:active{
+    color: var(--lightgold);
+}
+
+.applyNow {
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: var(--darkgold);
+}
+
+.applyNow:hover, .applyNow:active {
+    background-color: var(--lightgold); 
+    color: var(--darkblue);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.profile img{
+    border-radius: 50%;
+    max-width: 3rem;
+    max-height: 3rem;
+}
+
+.profile p{
+    text-align: center;
+    position: relative;
+    bottom: 1rem;
+    font-size: 20px;
+    color: white;
+}
+
+@media (max-width: 950px){
+    .middleNav input[type=search]{
+        width: 50vw;
+    }
+}
+
+@media (max-width: 650px){
+    .navlogo{
+        position: relative;
+        max-width: 3rem;
+        max-height: 3rem;
+        margin: 1rem;
+        bottom: 1rem;
+        right: 2rem;
+    }
+
+    .profile img{
+        max-width: 2rem;
+        max-height: 2rem;
+        position: relative;
+        bottom: 1rem;
+    }
+    
+    .profile p{
+       content-visibility: hidden;
+    }
+
+    .navButtonsContainer {
+       content-visibility: hidden;
+    }
+    
+    .navcontainer {
+        height: 7vh;
+    }
+}
+
+#calendar {
+    width: 70vw;
+    height: 50vw;
+}
