@@ -232,8 +232,9 @@ div:has(#business_cards){
 }
 
 /*contact us*/
-button[type="submit"]{
+button[type="submit"], input[type="submit"]{
    margin: 2rem 0rem;
    background-color: var(--darkblue);
+   color: var(--lightgold);
    border: 0px;
 }
