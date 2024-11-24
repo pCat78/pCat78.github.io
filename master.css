@@ -230,3 +230,10 @@ div:has(#business_cards){
 .event_details{
    color: gray;
 }
+
+/*contact us*/
+button[type="submit"]{
+   margin: 2rem 0rem;
+   background-color: var(--darkblue);
+   border: 0px;
+}
