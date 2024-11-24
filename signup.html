@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="master.css">
 
     <title>Sign Up</title>
 </head>
 <body>
     <h2>Sign Up</h2>
+    <div class="container">
     <form action="signup.php" method="POST">
         <label for="new_username">Username:</label>
         <input type="text" id="new_username" name="new_username" required><br><br>
@@ -16,7 +17,8 @@
         <label for="new_password">Password:</label>
         <input type="password" id="new_password" name="new_password" required><br><br>
 
-        <input type="submit" value="Sign Up">
+        <input type="submit" class="applyNow" value="Sign Up">
     </form>
+    </div>  
 </body>
 </html>
