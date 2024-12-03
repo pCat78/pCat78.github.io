@@ -25,6 +25,7 @@ body{
 div:has(.title){
    padding: 2rem;
 }
+
 .title{
    font-size: 3rem;
 }
