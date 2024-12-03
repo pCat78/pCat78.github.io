@@ -7,12 +7,27 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="nav bar/nav.css">
     <script src="https://kit.fontawesome.com/7195c61d23.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
 </div>
-    <h1>Calendar</h1>   
+<div class="navcontainer">
+  <a href="index.html"><img src="images/logo.png" alt="logo" class="navlogo"></a>
+  <div class="middleNav">
+      <div class="navButtonsContainer">
+          <a class="navButtons" href="calendar.html">Events</a>
+          <a class="navButtons" href="aboutus.html">About Us</a>
+          <a class="navButtons" href="faq.html">FAQ</a>
+          <a class="navButtons" href="businesses.html">Businesses</a>
+          <a class="navButtons" href="apply_here.html" id="applyNow">Apply Now</a>
+      </div>
+      
+  </div>
+</div>
+  <div>
+    <h1 class="title">Events</h1>   
     <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FIndiana%2FIndianapolis&showPrint=0&src=M2U1YzNjOGY4NWFlZGZhZGI0YzEyM2NlNjhhOGQ2MjIyOTY5M2ZhMjY0OGI3NGE5MjlmYmI5MDAzNzZjNzk3MkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F6BF26" style="border:solid 1px #777" frameborder="0" scrolling="no"></iframe>
     <h1>Events and Appointments</h1>
     <div id="calendar_cards">
@@ -72,5 +87,6 @@
         </a>
       </div>
     </div>
+  </div>
 </body>
 </html>
