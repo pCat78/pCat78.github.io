@@ -104,19 +104,8 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     color: white;
 }
 
-.navButtons:hover, .navButtons:active{
+.navButtons:hover:not(.applyNow), .navButtons:active:not(.applyNow){
     color: var(--lightgold);
-}
-
-.applyNow {
-    border-radius: 15px;
-    padding: 5px 10px;
-    background-color: var(--darkgold);
-}
-
-.applyNow:hover, .applyNow:active {
-    background-color: var(--lightgold); 
-    color: var(--darkblue);
 }
 
 .profile {
