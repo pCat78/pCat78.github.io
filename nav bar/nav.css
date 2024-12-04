@@ -4,10 +4,6 @@
     --darkgold: #DAAA00;
     --lightgold: #EDDB9D;
 }
-body {
-    margin: auto;
-    
-}
 
 .navcontainer {
     position: sticky;
@@ -20,7 +16,7 @@ body {
     justify-content: space-around;
     padding: 1rem 2rem;
     z-index: 100;
-    
+    font-family: "Funnel Display", Helvetica, sans-serif;
 }
 
 

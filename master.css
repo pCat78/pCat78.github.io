@@ -28,6 +28,7 @@ div:has(.title){
 
 .title{
    font-size: 3rem;
+   font-family: "Funnel Display", Helvetica, sans-serif;
 }
 
 h2{
@@ -87,6 +88,7 @@ h2{
 .business_img{
    width: 20rem;
    height: 20rem;
+   margin-left: 2rem;
 }
 
 .star {
@@ -209,6 +211,14 @@ div:has(#business_cards){
 .applyNow:hover, .applyNow:active {
    background-color: var(--lightgold); 
    color: var(--darkblue);
+}
+
+div:has(#love) {
+   display: flex;
+   align-items: center;
+   width: 100vw;
+   margin-top: 2rem;
+   gap: 2rem;
 }
 
 /*calendar*/
