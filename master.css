@@ -80,15 +80,12 @@ h2{
 
 /*Businesses*/
 .business_section{
-   display: flex;
-   gap: 2rem;
-   margin: 0rem 0rem 7rem 0rem;
+   margin: 0rem 5rem 7rem 0rem;
 }
 
 .business_img{
    width: 20rem;
    height: 20rem;
-   margin-left: 2rem;
 }
 
 .star {
