@@ -241,3 +241,11 @@ button[type="submit"], input[type="submit"]{
    color: var(--lightgold);
    border: 0px;
 }
+
+#contactImg {
+   float: right;
+   max-width: 40vw;
+   position: relative;
+   bottom: 40vw;
+   right: 10vw;
+}
