@@ -7,13 +7,16 @@
    --lightgold: #EDDB9D;
 }
 
+*{
+   font-family: "Funnel Display", Helvetica, sans-serif;
+}
+
 body:has(#hero){
    padding: 0rem;
 }
 
 body{
    margin: 0;
-   font-family: "Funnel Display", Helvetica, sans-serif;
 }
 
 .container {
