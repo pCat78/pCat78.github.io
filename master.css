@@ -40,12 +40,15 @@ h2{
    float: right;
    max-width: 20rem;
    max-height: 20rem;
-   margin: 2rem;
 }
 
 .about_us_text{
    width: 60%;
 
+}
+
+.img_container{
+   margin-left: 2rem;
 }
 
 .text_and_img_container .img_container{
@@ -248,4 +251,10 @@ button[type="submit"], input[type="submit"]{
    position: relative;
    bottom: 40vw;
    right: 10vw;
+}
+
+/*business profile*/
+
+.about_us_imgs {
+   margin-left: 5px;
 }
