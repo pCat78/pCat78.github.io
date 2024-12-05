@@ -222,7 +222,7 @@ div:has(#love) {
 }
 
 /*calendar*/
-#calendar_cards{
+.calendar_cards{
    display: flex;
    flex-wrap: wrap;
 }
@@ -231,10 +231,6 @@ div:has(#love) {
    width: 90vw;
    height: 70vh;
    margin: 0rem 0rem 2rem 2rem;
-}
-
-.event_details{
-   color: gray;
 }
 
 /*contact us*/
@@ -256,5 +252,5 @@ button[type="submit"], input[type="submit"]{
 /*business profile*/
 
 .about_us_imgs {
-   margin-left: 5px;
+   margin: 5px;
 }
