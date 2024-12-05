@@ -162,8 +162,3 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
         height: 7vh;
     }
 }
-
-#calendar {
-    width: 70vw;
-    height: 50vw;
-}
