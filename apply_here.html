@@ -26,15 +26,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <div><h1 class="title">Apply Here</h1></div>
     <div class="container">
-    <form>
+    <form action="apply_here.php" method="POST">
         <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
+          <label for="InputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
-          <label for="businessName">Business Name</label>
-          <input type="text" class="form-control" id="businessNameInput" placeholder="Business Name">
+          <label for="business_name">Business Name</label>
+          <input type="text" class="form-control" id="business_name" name="business_name" placeholder="Business Name" required>
+        </div>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+        <input type="tel" class="form-control" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="description">Description:</label>
+          <textarea class="form-control" id="description" name="description" rows="4" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary applyNow">Submit</button>
       </form>
