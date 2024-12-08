@@ -41,7 +41,6 @@ h2{
 
 /*About Us*/
 .about_us_imgs{
-   float: right;
    max-width: 20rem;
    max-height: 20rem;
 }
@@ -254,7 +253,8 @@ button[type="submit"], input[type="submit"]{
 }
 
 /*business profile*/
-
-.about_us_imgs {
-   margin: 5px;
+.img_container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
